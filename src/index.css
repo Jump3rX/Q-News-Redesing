@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* <uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 100 to 900*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+  padding: 15px;
+  border: none;
+  width: 350px;
+  border-radius: 13px;
+  box-shadow: 0px 10px 17px 0px rgba(128, 128, 128, 0.75);
+  -webkit-box-shadow: 0px 10px 17px 0px rgba(128, 128, 128, 0.75);
+  -moz-box-shadow: 0px 10px 17px 0px rgba(128, 128, 128, 0.75);
+}
+.card-image {
+  width: 100%;
+  border-radius: 13px;
+  overflow: hidden;
+}
+.card-text {
+  margin-bottom: 13px;
+}
+.muted {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+.muted-text {
+  color: gray;
+}
+.form-select {
+  display: block;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  padding: 12px;
+  width: 45%;
+  border-radius: 13px;
+  box-shadow: 1px 1px 8px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.clock {
+  font-size: 18px;
+}
+.brand {
+  display: flex;
+  justify-content: center;
+}
+.q-design {
+  font-size: 40px;
+  padding: 10px;
+  background: yellow;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+.news-design {
+  font-size: 35px;
+  font-family: "Sevillana", cursive;
+  padding: 10px;
+  background: black;
+  color: yellow;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

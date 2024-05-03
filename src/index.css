@@ -84,8 +84,9 @@ body {
   border-bottom-right-radius: 13px;
 }
 .card-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
 }
 @media (min-width: 768px) {
